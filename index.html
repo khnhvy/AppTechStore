@@ -27,13 +27,13 @@
                                 Tư vấn
                             </a>
                         </li>
-                        <li class="header__navbar-item">
+                        <!-- <li class="header__navbar-item">
                             <a href="" class="header__navbar-item-link">Đăng ký</a>
                         </li>
                         <li class="header__navbar-item">
                             <a href="" class="header__navbar-item-link">Đăng nhập</a>
-                        </li>
-                        <!-- <li class="header__navbar-user header__navbar-item">
+                        </li> -->
+                        <li class="header__navbar-user header__navbar-item">
                             <i class="header__navbar-user-icon fas fa-user"></i>
                             <span class="header__navbar-user-name">Khánh Vy</span>
                             <ul class="header__navbar-user-menu">
@@ -44,7 +44,7 @@
                                     <a href="">Đăng xuất</a>
                                 </li>
                             </ul>
-                        </li> -->
+                        </li>
                     </ul>
                 </nav>
                 <!-- Header with search -->
@@ -86,9 +86,9 @@
                     <div class="header__cart">
                         <div class="header__cart-wrap">
                             <i class="header__cart-icon fas fa-shopping-cart"></i>
-                            <span class="header__cart-notice">0</span>
+                            <span class="header__cart-notice">5</span>
                             <!-- no cart header__cart-list--no-cart  -->
-                            <div class="header__cart-list header__cart-list--no-cart">
+                            <div class="header__cart-list">
                                 <img src="./assets/img/no-cart.png" alt="" class="header__cart-img-no-cart">
                                 <span class="header__cart-list-no-cart-mess">Chưa có sản phẩm</span>
                                 <h4 class="header__cart-list-heading">Danh sách sản phẩm của bạn</h4>
@@ -152,7 +152,7 @@
                                         </div>
                                     </li>
                                 </ul>
-                                <a href="#" class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
+                                <a href="#" class="header__cart-view-cart btn btn--primary">Thanh toán</a>
                             </div>
                         </div>
                     </div>
@@ -610,19 +610,19 @@
                         <div class="auth-form__group">
                             <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
                         </div>
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">
+                                Bằng với việc đăng ký, bạn đã đồng ý về
+                                <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+                                <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                            </p>
+                        </div>
+                        <div class="auth-form__controls">
+                            <button class="btn btn--primary">ĐĂNG KÍ</button>
+                        </div>
                     </div>
-
-                    <div class="auth-form__aside">
-                        <p class="auth-form__policy-text">
-                            Bằng với việc đăng ký, bạn đã đồng ý về
-                            <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> &
-                            <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
-                        </p>
-                    </div>
-
                     <div class="auth-form__controls">
                         <button class="btn btn-normal auth-form__controls-back">TRỞ LẠI</button>
-                        <button class="btn btn--primary">ĐĂNG KÝ</button>
                     </div>
                 </div>
             </div> -->
@@ -642,10 +642,12 @@
                         <div class="auth-form__group">
                             <input type="text" class="auth-form__input" placeholder="Nội Dung">
                         </div>
+                        <div class="auth-form__controls">
+                            <button class="btn btn--primary">GỬI</button>
+                        </div>
                     </div>
                     <div class="auth-form__controls">
                         <button class="btn btn-normal auth-form__controls-back">TRỞ LẠI</button>
-                        <button class="btn btn--primary">GỬI</button>
                     </div>
                 </div>
             </div> -->
@@ -663,13 +665,15 @@
                         <div class="auth-form__group">
                             <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
                         </div>
+                        <div class="auth-form__controls">
+                            <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                        </div>
                     </div>
                     <div class="auth-form__controls">
                         <button class="btn btn-normal auth-form__controls-back">TRỞ LẠI</button>
-                        <button class="btn btn--primary">ĐĂNG NHẬP</button>
                     </div>
                 </div>
-            </div>-->
+            </div> -->
         <!-- </div>
     </div> -->
 </body>
