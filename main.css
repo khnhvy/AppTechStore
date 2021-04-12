@@ -142,7 +142,8 @@
     margin-bottom: 40px;
 }
 .auth-form__controls-back {
-    margin-right: 8px;
+    margin-right: 150px;
+    margin-top: -116px;
 }
 
 /* Header with search */
