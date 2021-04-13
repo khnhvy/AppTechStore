@@ -142,8 +142,16 @@
     margin-bottom: 40px;
 }
 .auth-form__controls-back {
-    margin-right: 150px;
-    margin-top: -116px;
+    /* margin-right: 150px; */
+    /* margin-top: -116px; */
+    margin-top: 20px;
+    margin-right: 408px;
+    left: 0;
+}
+.auth-form__controls-back-icon {
+    font-size: 2.0rem;
+    margin-right: 8px;
+    display: inline;
 }
 
 /* Header with search */
